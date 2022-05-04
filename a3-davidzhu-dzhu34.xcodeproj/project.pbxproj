@@ -13,6 +13,10 @@
 		DA03465C27E2CD79003F3CD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA03465A27E2CD79003F3CD8 /* Main.storyboard */; };
 		DA03465E27E2CD79003F3CD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA03465D27E2CD79003F3CD8 /* Assets.xcassets */; };
 		DA03466127E2CD79003F3CD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA03465F27E2CD79003F3CD8 /* LaunchScreen.storyboard */; };
+		DA03466927E2D32F003F3CD8 /* HistoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03466827E2D32F003F3CD8 /* HistoryController.swift */; };
+		DA03468B27E503F4003F3CD8 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03468A27E503F4003F3CD8 /* Weather.swift */; };
+		DA03468F27E546A7003F3CD8 /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03468E27E546A7003F3CD8 /* History.swift */; };
+		DA03469127E594F5003F3CD8 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA03469027E594F5003F3CD8 /* HistoryTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		DA03465D27E2CD79003F3CD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA03466027E2CD79003F3CD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA03466227E2CD79003F3CD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA03466827E2D32F003F3CD8 /* HistoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryController.swift; sourceTree = "<group>"; };
+		DA03468A27E503F4003F3CD8 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		DA03468E27E546A7003F3CD8 /* History.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		DA03469027E594F5003F3CD8 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,35 @@
 		DA03465327E2CD79003F3CD8 /* a3-davidzhu-dzhu34 */ = {
 			isa = PBXGroup;
 			children = (
+				DAB31C9827EBAB7D00DE1B18 /* ViewController */,
 				DA03465427E2CD79003F3CD8 /* AppDelegate.swift */,
 				DA03465627E2CD79003F3CD8 /* SceneDelegate.swift */,
-				DA03465827E2CD79003F3CD8 /* ViewController.swift */,
+				DAB31C9927EBAC5200DE1B18 /* Class */,
 				DA03465A27E2CD79003F3CD8 /* Main.storyboard */,
 				DA03465D27E2CD79003F3CD8 /* Assets.xcassets */,
 				DA03465F27E2CD79003F3CD8 /* LaunchScreen.storyboard */,
 				DA03466227E2CD79003F3CD8 /* Info.plist */,
 			);
 			path = "a3-davidzhu-dzhu34";
+			sourceTree = "<group>";
+		};
+		DAB31C9827EBAB7D00DE1B18 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DA03465827E2CD79003F3CD8 /* ViewController.swift */,
+				DA03469027E594F5003F3CD8 /* HistoryTableViewCell.swift */,
+				DA03466827E2D32F003F3CD8 /* HistoryController.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		DAB31C9927EBAC5200DE1B18 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				DA03468A27E503F4003F3CD8 /* Weather.swift */,
+				DA03468E27E546A7003F3CD8 /* History.swift */,
+			);
+			name = Class;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +166,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA03468F27E546A7003F3CD8 /* History.swift in Sources */,
+				DA03466927E2D32F003F3CD8 /* HistoryController.swift in Sources */,
+				DA03469127E594F5003F3CD8 /* HistoryTableViewCell.swift in Sources */,
 				DA03465927E2CD79003F3CD8 /* ViewController.swift in Sources */,
 				DA03465527E2CD79003F3CD8 /* AppDelegate.swift in Sources */,
 				DA03465727E2CD79003F3CD8 /* SceneDelegate.swift in Sources */,
+				DA03468B27E503F4003F3CD8 /* Weather.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
