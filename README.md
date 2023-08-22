@@ -1,4 +1,7 @@
-![picture](https://github.com/davidzhutoronto/Weather-Report-App---ios/blob/main/WX20230822-175745%402x.png)
+![picture](https://github.com/davidzhutoronto/Weather-Report-App---ios/blob/main/WX20230822-175745%402x.png | width=100)
+![picture2](https://github.com/davidzhutoronto/Weather-Report-App---ios/blob/main/WX20230822-175801%402x.png | width=100)
+
+
 Weather Report App
 ==================
 
