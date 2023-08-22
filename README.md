@@ -1,4 +1,4 @@
-![picture](https://github.com/davidzhutoronto/Weather-Report-App---ios/blob/main/WX20230822-175745%402x.png | width=200px)
+![picture](https://github.com/davidzhutoronto/Weather-Report-App---ios/blob/main/WX20230822-175745%402x.png =250x)
 <img src="[drawing.jpg](https://github.com/davidzhutoronto/Weather-Report-App---ios/blob/main/WX20230822-175745%402x.png)" alt="scren1" width="200"/>
 ![picture2](https://github.com/davidzhutoronto/Weather-Report-App---ios/blob/main/WX20230822-175801%402x.png | width=200px)
 
